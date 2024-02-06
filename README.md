@@ -4,7 +4,7 @@ Este repositorio te proporciona el acceso a todos los archivos con código, proy
 
 Si tienes algún problema con algún archivo, algún recurso o algún punto del tutorial, te recomiendo que dejes tu duda o comentario en el vídeo en concreto. También puedes escribirme un correcto a sergiocorreas18@gmail.com.  
 
-## Repository Content  
+## Contenido del repositorio  
 
 - **Proyectos Demo**: Todas las demos de los proyectos vistos en el curso. Desde proyectos para iniciar, proyectos a medio hacer, o proyectos ya finalizados.
 - **Otros recursos**: Puedes encontrar otros recursos que vayamos viendo a lo largo del tutorial.
