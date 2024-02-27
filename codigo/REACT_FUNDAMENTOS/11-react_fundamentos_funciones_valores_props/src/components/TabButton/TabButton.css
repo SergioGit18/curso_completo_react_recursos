@@ -1,0 +1,32 @@
+
+#reactExamples menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(40deg, #3b5486, #03d5ff, #3b5486, #03d5ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+  
+#reactExamples menu button:hover {
+  background: linear-gradient(40deg, #576a6f, #a8dfed, #576a6f, #a8dfed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#reactExamples menu button.active {
+  background: linear-gradient(40deg, #576a6f, #a8dfed, #576a6f, #a8dfed);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
