@@ -1,0 +1,53 @@
+#coreConcepts {
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #141619;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    margin: 3rem auto;
+    width: 85%;
+  }
+  
+  #coreConcepts > h2{
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  #coreConcepts div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #coreConcepts div > div {
+    width: 10rem;
+    text-align: center;
+    padding: 1rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #coreConcepts div> div > img {
+    height: 4rem;
+    object-fit: fill
+  }
+  
+  #coreConcepts > div > div > h3 {
+    margin: 0.5rem 0;
+    text-align: center;
+    background: linear-gradient(40deg, #3b5486, #03d5ff, #3b5486, #03d5ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  }
+  
+  #coreConcepts > div > div > p {
+    font-size: 0.9rem;
+    text-align: center;
+  }
