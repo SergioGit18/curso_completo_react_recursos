@@ -2,7 +2,7 @@
 
 Este repositorio te proporciona el acceso a todos los archivos con código, proyectos y muchos otros recursos que son usados o proporcionados en [CURSO DE REACT DESDE CERO EN PICANDO CÓDIGO](https://www.youtube.com/watch?v=ZWHJSS4ZtIk&list=PLO8lO9oepSLv0zh2j644zWefsxEGR8zdC).  
 
-Si tienes algún problema con algún archivo, algún recurso o algún punto del tutorial, te recomiendo que dejes tu duda o comentario en el vídeo en concreto. También puedes escribirme un correcto a sergiocorreas18@gmail.com.  
+Si tienes algún problema con algún archivo, algún recurso o algún punto del tutorial, te recomiendo que dejes tu duda o comentario en el vídeo en concreto. También puedes escribirme un correo a sergiocorreas18@gmail.com.  
 
 ## Contenido del repositorio  
 
