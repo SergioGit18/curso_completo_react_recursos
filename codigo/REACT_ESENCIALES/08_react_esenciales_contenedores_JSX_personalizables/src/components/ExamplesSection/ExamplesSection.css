@@ -1,0 +1,39 @@
+#reactExamples {
+    margin: 3rem auto;
+    width: 85%;
+  }
+  
+  #reactExamples h2 {
+    text-align: left;
+  }
+  
+  #reactExamples menu {
+    margin: 1rem 0;
+    padding: 0;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+  }
+
+  #tab-content {
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #316C9C;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  #tab-content h3 {
+    margin: 0;
+  }
+  
+  #tab-content pre {
+    background-color: #141619;
+    border-radius: 1rem;
+    padding: 3rem;
+  }
+  
+  #tab-content code {
+    font-size: 1rem;
+    color: #e5ff00;
+  }
+  
