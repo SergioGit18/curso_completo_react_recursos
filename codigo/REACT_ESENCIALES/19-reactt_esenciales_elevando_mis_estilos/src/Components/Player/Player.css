@@ -1,0 +1,83 @@
+#playersContainer {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#playersContainer li {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border: 2px solid transparent;
+}
+
+
+#playersContainer.highlight-player li.active .player-name,
+#playersContainer.highlight-player li.active .player-symbol {
+  text-shadow: -15px 5px 20px rgba(255, 0, 255, 0.5),
+                     0 -5px 15px rgba(255, 0, 255, 0.5),
+                     5px 0 15px rgba(241, 112, 12, 0.5),
+                     0 5px 15px rgba(241, 112, 12, 0.5);
+  animation: pulse-text 1.5s infinite ease-in-out;
+}
+
+#playersContainer button {
+  width: 5rem;
+  border: none;
+  background: none;
+  color: #e7872d;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #e7872d;
+  border-radius: 7px;
+  margin-left: 1rem;
+}
+
+#playersContainer button:hover {
+  color: rgba(240, 44, 172, 0.548);
+}
+
+.player {
+  border: 2px solid transparent;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.player-name {
+  display: inline-block;
+  width: 10rem;
+  font-size: 1.2rem;
+  color: #e1dec7;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.player input {
+  font: inherit;
+  font-size: 1rem;
+  width: 10rem;
+  border: none;
+  padding: 0.5rem;
+  animation: pulse-text 2s infinite;
+  background-color: #511d4b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.player-symbol {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: #e1dec7;
+}
