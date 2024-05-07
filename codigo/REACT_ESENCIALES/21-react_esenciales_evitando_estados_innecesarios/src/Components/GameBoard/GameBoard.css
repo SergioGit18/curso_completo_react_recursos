@@ -1,0 +1,40 @@
+
+#gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3rem;
+    margin: 1rem 0;
+    padding: 0;
+    flex-direction: column;
+    list-style: none;
+  }
+  
+  #gameBoard ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #gameBoard button {
+    width: 10rem;
+    height:10rem;
+    border: none;
+    background: #4E1A4C;
+    color: #ccc;
+    font-size: 5rem;
+    cursor: pointer;
+    font-family: 'Caprasimo', cursive;
+    padding: 1rem;
+    border-radius: 6px;
+    background: linear-gradient(#4E1A4C, rgba(0, 0, 52, 0.346));
+    box-shadow:
+      -5px 0 15px rgba(255, 0, 255, 0.5),
+      0 -5px 15px rgba(255, 0, 255, 0.5),
+      5px 0 15px rgba(241, 112, 12, 0.5),
+      0 5px 15px rgba(241, 112, 12, 0.5);
+  }
