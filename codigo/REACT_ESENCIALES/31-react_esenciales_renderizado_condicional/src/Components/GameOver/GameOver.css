@@ -1,0 +1,38 @@
+#gameOver {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(40, 38, 23, 0.75);
+  animation: pop-in 0.5s cubic-bezier(0.68, -0.55, 0.65, 0.52) forwards;
+}
+
+#gameOver p {
+  margin: 0 auto;
+}
+
+#gameOver button {
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+  background: none;
+  color: #dedede;
+  padding: 0.5rem 3rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.7s, color 0.7s;
+  box-shadow: -5px 0 15px rgba(255, 0, 255, 0.5),
+    0 -5px 15px rgba(255, 0, 255, 0.5), 5px 0 15px rgba(241, 112, 12, 0.5),
+    0 5px 15px rgba(241, 112, 12, 0.5);
+  animation: pulse-text 1.5s infinite ease-in-out;
+}
+
+#gameOver button:hover {
+  background: linear-gradient(#4e1a4c, rgba(0, 0, 52, 0.346));
+  color: #dedede;
+  transform: scale(1.1);
+}
