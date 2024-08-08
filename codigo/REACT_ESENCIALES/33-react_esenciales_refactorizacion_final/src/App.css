@@ -1,0 +1,13 @@
+#game-container {
+  max-width: 50rem;
+  margin: 3rem auto;
+  padding: 4rem;
+  border-radius: 6px;
+  background: linear-gradient(#000034, #000034a3);
+  box-shadow:
+    -5px 0 15px rgba(255, 0, 255, 0.5),
+    0 -5px 15px rgba(255, 0, 255, 0.5),
+    5px 0 15px rgba(241, 112, 12, 0.5),
+    0 5px 15px rgba(241, 112, 12, 0.5);
+  position: relative;
+}
